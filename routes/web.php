@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/braille', function() {
+    return 'Braille';
+});
+
+Route::get('/morse', function() {
+    return 'Morse';
+});
